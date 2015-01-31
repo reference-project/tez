@@ -1009,4 +1009,7 @@ public class TezConfiguration extends Configuration {
   public static final String TEZ_AM_WEBSERVICE_ENABLE = TEZ_AM_PREFIX
       + "tez-ui.webservice.enable";
   public static final boolean TEZ_AM_WEBSERVICE_ENABLE_DEFAULT = true;
+
+  public static final String TEZ_AM_CONTAINER_LAUNCHER_CLASS = TEZ_AM_PREFIX + "container-launcher.class";
+  public static final String TEZ_AM_TASK_SCHEDULER_CLASS = TEZ_AM_PREFIX + "task-scheduler.class";
 }
